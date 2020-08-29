@@ -1,0 +1,20 @@
+\> 本文由 \[简悦 SimpRead\](http://ksria.com/simpread/) 转码， 原文地址 \[www.quora.com\](https://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean)
+
+*   L1 cache reference: 0.5 ns
+*   Branch mispredict: 5 ns
+*   L2 cache reference: 7 ns
+*   Mutex lock/unlock: 100 ns
+*   Main memory reference: 100 ns
+*   Compress 1K bytes with Zippy: 10,000 ns
+*   Send 2K bytes over 1 Gbps network: 20,000 ns
+*   Read 1 MB sequentially from memory: 250,000 ns
+*   Round trip within same datacenter: 500,000 ns
+*   Disk seek: 10,000,000 ns
+*   Read 1 MB sequentially from network: 10,000,000 ns
+*   Read 1 MB sequentially from disk: 30,000,000 ns
+*   Send packet CA->Netherlands->CA: 150,000,000 ns
+
+  
+(note that 1 ns = 1 \* 10^-9 s)
+
+Also note that these numbers have been updated by others, e.g. [http://colin-scott.github.com/blog/2012/12/24/latency-trends/](http://colin-scott.github.com/blog/2012/12/24/latency-trends/ "colin-scott.github.com")
